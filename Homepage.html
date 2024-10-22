@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="general.css">
         <link rel="stylesheet" href="frontpage.css">
         <link rel="stylesheet" href="grids.css">
+        <script src="JavaScript.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,9 +22,9 @@
         </div>
 
         <div class="navigation">
-            <button class="nav-button">About</button>
-            <button class="nav-button">Work</button>
-            <button class="nav-button">Education</button>
+            <button class="nav-button" onclick="scrollToSection('About me')">About</button>
+            <button class="nav-button" onclick="scrollToSection('Work')">Work</button>
+            <button class="nav-button"onclick="scrollToSection('Education')">Education</button>
         </div>
 
         <div class="Intro">
@@ -35,12 +36,12 @@
         </div>
 
         <div>
-            <h1 class="Heading_chat">About me</h1>
+            <h1 class="Heading_chat" id="About me">About me</h1>
             <p class="about">Hello, I am Sulav Paudel. I am a designer, developer, teacher as well as student.  I’ve always found my happiness in crafting and its artful showcase. What started out as a obsession of making my room efficient and pleasing turned into my passion. But there was problem, the reality is limited, I could only do so much before I ran out of materials or space. That’s when I first started coding, a limitless canvas, with everything i want. Creating something out of my mind only happens in Harry Potter and in coding. Which is exactly where I found myself. But having said that I am still a beginner trying to learn and gain some experience in the real world.</p>
         </div>
 
         <div>
-            <h1 class="Heading_chat">Work</h1>
+            <h1 class="Heading_chat" id="Work">Work</h1>
 
             <div class="work_carousel">
 
@@ -86,7 +87,7 @@
         </div>
 
         <div>
-            <h1 class="Heading_chat">Education</h1>
+            <h1 class="Heading_chat" id="Education">Education</h1>
 
             <div class="edu_carousel">
 
@@ -117,6 +118,9 @@
 
         </div>
 
+
+
+
+        <script src="JavaScript.js"></script>
     </body>
 </html>
-kjdshfkshd

@@ -48,15 +48,13 @@
 }
 
 .nav-button:hover{
-    font-size: 25px;
+    transform: scale(1.2);
 }
 
 
 .intro-text{
-    line-height:80%;
-    width: 425px;
-    height: 233px;
-    flex-shrink: 0;
+    width: 100%;
+    max-width: 500px;
     color: #FDD186;
     font-family: Days One;
     font-size: 50px;
@@ -67,7 +65,7 @@
 
 .img{
     margin-top: 0;
-    height: 450px;
+    height: 60vh;
 }
 
 .Heading_chat{
@@ -96,9 +94,9 @@
     overflow-x: scroll;
     display: flex;
     justify-content: space-between;
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 20px;
+    padding-right: 8vw;
+    padding-left: 8vw;
+    padding-top: 1vw;
 }
 .work_card{
     display: flex;
@@ -158,9 +156,9 @@
 
     display: flex;
     justify-content: space-between;
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 20px;
+    padding-right: 8vw;
+    padding-left: 8vw;
+    padding-top: 3vh;
 }
 
 .edu_card{
